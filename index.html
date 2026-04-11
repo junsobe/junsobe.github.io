@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="https://stickerbook.carrd.co/assets/images/gallery10/4a77f536.gif?v=a5024fa4">
- <title>Junsobe</title>
+    <link rel="icon" type="image/x-icon" href="https://stickerbook.carrd.co/assets/images/gallery14/54f55d78.gif?v=a5024fa4">
+ <title>junsobe</title>
   <script> document.addEventListener('contextmenu', event => {
       event.preventDefault();
   });
@@ -24,9 +24,10 @@
 }
 
 body {
+  margin: 0;
   font-family: pixel;
-  text-align: center;
-  font-size: .75em;
+  font-size: 1em;
+  text-align: left;
   line-height: 1.5;
   position: relative;
 	-webkit-animation: fade-in 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -63,30 +64,29 @@ body {
 }
 
 .wrapper {
-  width: 450px;
-  margin-top: 6%;
+  width: 500px;
 }
-
 
 @media screen and (max-width: 600px) {
   .wrapper {
-    width: 100%;
-	margin-top: 14%;
+  width: 100%;
   }
 }
-
-@font-face {
-  font-family: mie;
-  src: url("https://file.garden/Z61J-TerTUbr0Yw4/fonts/mieszkanie9.otf");
+  
+  @media screen and (max-width: 600px) {
+  .navigation a {
+  display: block;
+    font-size: 1.5em;
+    text-align: left;
+    }
 }
-
-h1 {
-  font-family: mie;
-  font-size: 7em;
-  margin: 0;
-  font-weight: 400;
+  
+@media screen and (max-width: 600px) {
+  .navigation  {
+    padding: 1em;
+    }
 }
-
+  
 a {
   color: black;
   text-decoration: none;
@@ -97,25 +97,78 @@ a:hover {
 }
 
 .navigation {
-  position: fixed;
-  top: 0;
+  display: block;
   border-bottom: 1px solid lightgrey;
   width: 100%;
+  background: white;
+  margin: 0;
+  padding: 1em;
 }
+  
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .box {
+    border-bottom: 1px solid lightgrey;
+    margin-top:0%;
+  }
+}
+  
+@media only screen and (max-width: 600px) {
+  .box {
+    border-bottom: 1px solid lightgrey;
+    margin-top:0%;
+  }
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .box {
+    margin-top:13%;
+    border: 1px solid lightgrey;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .box {
+    margin-top:13%;
+    border: 1px solid lightgrey;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .box {
+    margin-top:13%;
+    border: 1px solid lightgrey;
+  }
+}
+  
+  .box {
+    background-image: url("https://file.garden/Z61J-TerTUbr0Yw4/junsobe/tommie.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: left;
+    width: 100%;
+    height: 30em;
+    padding: 1em;
+  }
 </style>
 </head>
 <body>
   <div align="center">
 <div class="navigation">
-  <p><a href="https://junsobe.github.io/design">Graphic Design</a>. <a href="https://junsobe.github.io/illustration">Illustration</a>. <a href="https://junsobe.github.io/misc">Other</a>.</p>
+<a href="design.html">Graphic Design.</a> <a href="illustration.html">Illustration.</a> <a href="misc.html">About.</a>
+ <a href="log.html">Log.</a>
 </div>
     <div class="wrapper">
-  <h1>Juno B.</h1>
-<img src="https://fuchi.neocities.org/graphics/art/pixelme.jpg" width="200" style="display: block;"> 
-<p>Juno is a artist and designer studying Graphic Design at Portland State University </p>
-<p style="font-size: .5em;">hosted on Github pages </p>
-<p> <img src="https://file.garden/Z61J-TerTUbr0Yw4/90s/button.gif" style="display:block;"></p>
+     <div class="box">
+Juno is an artist & designer studying Graphic Design at Portland State University 
+<p> <img src="https://file.garden/Z61J-TerTUbr0Yw4/90s/button.gif" style="display:block;"> </p>
+</div
+      </div>
 </div>
-</div>
+    </div>
 </body>
 </html>
